@@ -258,7 +258,7 @@
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../exchange" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Pug/Jade" />
   </component>
@@ -310,12 +310,12 @@
       <workItem from="1541359859866" duration="245000" />
       <workItem from="1541791555182" duration="2831000" />
       <workItem from="1541831394555" duration="31859000" />
-      <workItem from="1541914797898" duration="24812000" />
+      <workItem from="1541914797898" duration="25672000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125858000" />
+    <option name="totallyTimeSpent" value="126718000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

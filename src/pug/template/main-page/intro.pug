@@ -1,0 +1,151 @@
+mixin intro()
+	section.section-intro
+		div.container.container-min
+			//#output
+			//#output1
+			//#output2
+			//.center
+
+			div.select-box
+				h1.select-box__title Select currency to exhange:
+				select(name="sources" placeholder="USD")#sources.custom-select.sources.select-box__content
+					option.custom-select__option(value='USD' selected="selected") usd
+					option.custom-select__option( value='EUR') eur
+					option.custom-select__option( value='RUB') rub
+					option.custom-select__option( value='GBP') gbp
+
+			div.card-container.owl-carousel
+				div.card-container__item.card-container__item--eth
+					h3.card-container__item__title Ethereum
+					img.figure(src='img/transparent-figure.png')
+					img.cent.cent--eth(src='img/eth.png')
+					div.card-container__item__price
+						span.card-price-title Price:
+						span.card-price-value $22 526.92
+
+					div.card-container__item__change
+						span.card-change-title Percent change
+						div.slideOne
+							input#slideOne.checkbox-slide(type='checkbox', value='None', name='check')
+							label(for='slideOne')
+
+					div.card-container__item__time
+						div.card-container__item__time__hour.card-container__item__time--row
+							span.card-container__item__time__title Hour change
+							div.card-container__item__time__value-box
+								span.value-box-percent.value-box-percent--hour 233
+
+								span.value-box-many.value-box-many--hour
+
+						div.card-container__item__time__day.card-container__item__time--row
+									span.card-container__item__time__title Day change
+									div.card-container__item__time__value-box
+										span.value-box-percent.value-box-percent--day 233
+
+										span.value-box-many.value-box-many--day
+
+						div.card-container__item__time__week.card-container__item__time--row
+							span.card-container__item__time__title Week change
+							div.card-container__item__time__value-box
+								span.value-box-percent.value-box-percent--week 233
+
+								span.value-box-many.value-box-many--week
+
+						div.card-container__item__time__week.card-container__item__time--row
+							span.card-container__item__time__title Month change
+							div.card-container__item__time__value-box
+								span.value-box-percent.value-box-percent--month 233
+
+								span.value-box-many.value-box-many--month
+
+
+
+				div.card-container__item.card-container__item--lth
+					h3.card-container__item__title Litecoin
+					img.figure(src='img/transparent-figure.png')
+					img.cent.cent--lth(src='img/lt.png')
+					div.card-container__item__price
+						span.card-price-title Price:
+						span.card-price-value $22 526.92
+
+					div.card-container__item__change
+						span.card-change-title Percent change
+
+						div.slideOne
+							input#slideTwo.checkbox-slide(type='checkbox', value='None', name='check')
+							label(for='slideTwo')
+
+					div.card-container__item__time
+						div.card-container__item__time__hour.card-container__item__time--row
+							span.card-container__item__time__title Hour change
+							div.card-container__item__time__value-box
+								span.value-box-percent.value-box-percent--hour 233
+
+								span.value-box-many.value-box-many--hour
+
+						div.card-container__item__time__day.card-container__item__time--row
+							span.card-container__item__time__title Day change
+							div.card-container__item__time__value-box
+								span.value-box-percent.value-box-percent--day 233
+
+								span.value-box-many.value-box-many--day
+
+						div.card-container__item__time__week.card-container__item__time--row
+							span.card-container__item__time__title Week change
+							div.card-container__item__time__value-box
+								span.value-box-percent.value-box-percent--week 233
+
+								span.value-box-many.value-box-many--week
+
+						div.card-container__item__time__week.card-container__item__time--row
+							span.card-container__item__time__title Month change
+							div.card-container__item__time__value-box
+								span.value-box-percent.value-box-percent--month 233
+
+								span.value-box-many.value-box-many--month
+
+
+				div.card-container__item.card-container__item--btc
+					h3.card-container__item__title Bitcoin
+					img.figure(src='img/transparent-figure.png')
+					img.cent.cent--btc(src='img/btn.png')
+					div.card-container__item__price
+						span.card-price-title Price:
+						span.card-price-value $22 526.92
+					div.card-container__item__change
+						span.card-change-title Percent change
+
+						div.slideOne
+							input#slideThree.checkbox-slide(type='checkbox', value='None', name='check')
+							label(for='slideThree')
+
+					div.card-container__item__time
+						div.card-container__item__time__hour.card-container__item__time--row
+							span.card-container__item__time__title Hour change
+							div.card-container__item__time__value-box
+								span.value-box-percent.value-box-percent--hour 233
+
+								span.value-box-many.value-box-many--hour
+
+						div.card-container__item__time__day.card-container__item__time--row
+							span.card-container__item__time__title Day change
+							div.card-container__item__time__value-box
+								span.value-box-percent.value-box-percent--day 233
+
+								span.value-box-many.value-box-many--day
+
+						div.card-container__item__time__week.card-container__item__time--row
+							span.card-container__item__time__title Week change
+							div.card-container__item__time__value-box
+								span.value-box-percent.value-box-percent--week 233
+
+								span.value-box-many.value-box-many--week
+
+						div.card-container__item__time__week.card-container__item__time--row
+							span.card-container__item__time__title Month change
+							div.card-container__item__time__value-box
+								span.value-box-percent.value-box-percent--month 233
+
+								span.value-box-many.value-box-many--month
+
+

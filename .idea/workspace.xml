@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c6d904a5-b60e-4dfb-972b-fc1c5360bc3a" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="vertical" split-proportion="0.77840906">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="index.pug" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="17">
+                  <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="34" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="intro.pug" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/pug/template/main-page/intro.pug">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-85">
+                  <caret line="36" selection-start-line="36" selection-end-line="36" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="_default.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/style/partials/_default.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                  <caret line="41" column="50" lean-forward="true" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_intro.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/style/partials/main-page/_intro.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="322" column="18" selection-start-line="322" selection-start-column="18" selection-end-line="322" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/js/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="4">
+                  <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/style/partials/_footer.sass" />
+        <option value="$PROJECT_DIR$/src/style/partials/_test.scss" />
+        <option value="$PROJECT_DIR$/src/style/main.sass" />
+        <option value="$PROJECT_DIR$/src/style/partials/_reset.scss" />
+        <option value="$PROJECT_DIR$/src/style/partials/plugins/_owl-carousel.scss" />
+        <option value="$PROJECT_DIR$/src/style/partials/plugins/_owl-carousel-thems.scss" />
+        <option value="$PROJECT_DIR$/src/js/libs/owl.carosel.js" />
+        <option value="$PROJECT_DIR$/src/pug/template/header.pug" />
+        <option value="$PROJECT_DIR$/src/pug/template/intro.pug" />
+        <option value="$PROJECT_DIR$/src/pug/template/main/intro.pug" />
+        <option value="$PROJECT_DIR$/src/style/partials/index/_intro.scss" />
+        <option value="$PROJECT_DIR$/build/css/main.css" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/src/pug/template/main-page/storu.pug" />
+        <option value="$PROJECT_DIR$/src/style/partials/main-page/_story.scss" />
+        <option value="$PROJECT_DIR$/src/pug/template/main-page/six.pug" />
+        <option value="$PROJECT_DIR$/src/style/main.scss" />
+        <option value="$PROJECT_DIR$/src/js/main-page/first.js" />
+        <option value="$PROJECT_DIR$/src/style/partials/main-page/_first.scss" />
+        <option value="$PROJECT_DIR$/src/pug/template/main-page/first.pug" />
+        <option value="$PROJECT_DIR$/src/pug/template/footer.pug" />
+        <option value="$PROJECT_DIR$/src/pug/template/main-page/contact.pug" />
+        <option value="$PROJECT_DIR$/src/pug/template/main-page/third.pug" />
+        <option value="$PROJECT_DIR$/src/pug/template/main-page/second.pug" />
+        <option value="$PROJECT_DIR$/src/pug/template/main-page/five.pug" />
+        <option value="$PROJECT_DIR$/src/pug/template/main-page/four.pug" />
+        <option value="$PROJECT_DIR$/src/style/partials/main-page/_second.scss" />
+        <option value="$PROJECT_DIR$/src/style/partials/main-page/_contact.scss" />
+        <option value="$PROJECT_DIR$/src/style/partials/main-page/_footer.scss" />
+        <option value="$PROJECT_DIR$/src/style/partials/main-page/_six.scss" />
+        <option value="$PROJECT_DIR$/src/js/main-page/contact.js" />
+        <option value="$PROJECT_DIR$/src/style/partials/main-page/_five.scss" />
+        <option value="$PROJECT_DIR$/src/style/partials/main-page/_third.scss" />
+        <option value="$PROJECT_DIR$/src/pug/index.pug" />
+        <option value="$PROJECT_DIR$/src/js/main-page/intro.js" />
+        <option value="$PROJECT_DIR$/src/style/partials/_default.scss" />
+        <option value="$PROJECT_DIR$/src/pug/template/main-page/intro.pug" />
+        <option value="$PROJECT_DIR$/src/style/partials/main-page/_intro.scss" />
+        <option value="$PROJECT_DIR$/src/js/main.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1378" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FINAL PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FINAL PROJECT" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FINAL PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FINAL PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FINAL PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FINAL PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FINAL PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FINAL PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FINAL PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FINAL PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FINAL PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FINAL PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FINAL PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FINAL PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FINAL PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FINAL PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FINAL PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FINAL PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pug" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FINAL PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FINAL PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pug" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FINAL PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FINAL PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pug" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="main-page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FINAL PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FINAL PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FINAL PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FINAL PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FINAL PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FINAL PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
+              <item name="main-page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FINAL PROJECT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FINAL PROJECT" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Pug/Jade" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DiNick\EPAM_2\FINAL PROJECT\src\pug\template" />
+      <recent name="D:\DiNick\EPAM_2\FINAL PROJECT\src\js\libs" />
+      <recent name="D:\DiNick\EPAM_2\FINAL PROJECT\build\js" />
+      <recent name="D:\DiNick\EPAM_2\FINAL PROJECT\src\pug\template\main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6d904a5-b60e-4dfb-972b-fc1c5360bc3a" name="Default" comment="" />
+      <created>1511460192717</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1511460192717</updated>
+      <workItem from="1511460194895" duration="3621000" />
+      <workItem from="1511607122464" duration="5960000" />
+      <workItem from="1511620441606" duration="3602000" />
+      <workItem from="1511679821850" duration="2209000" />
+      <workItem from="1511703956808" duration="15421000" />
+      <workItem from="1511806659278" duration="718000" />
+      <workItem from="1512064577657" duration="675000" />
+      <workItem from="1512200496141" duration="7421000" />
+      <workItem from="1512284890520" duration="14005000" />
+      <workItem from="1512408750394" duration="3743000" />
+      <workItem from="1512667027418" duration="1459000" />
+      <workItem from="1513184589502" duration="2553000" />
+      <workItem from="1513703765860" duration="1147000" />
+      <workItem from="1513832531721" duration="3457000" />
+      <workItem from="1514311698735" duration="120000" />
+      <workItem from="1541359859866" duration="245000" />
+      <workItem from="1541791555182" duration="2831000" />
+      <workItem from="1541831394555" duration="31859000" />
+      <workItem from="1541914797898" duration="24812000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="125858000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
+    <layout>
+      <window_info id="Gulp" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2238806" />
+      <window_info anchor="bottom" id="TODO" order="0" weight="0.3298611" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.3298611" />
+      <window_info id="npm" order="0" side_tool="true" />
+      <window_info id="Structure" order="0" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.40418118" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298611" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Terminal" order="5" visible="true" weight="0.2986111" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Gulp" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.3298611" />
+      <window_info anchor="bottom" id="Debug" order="6" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2716418" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="0" weight="0.3298611" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info id="Structure" order="3" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="59" lean-forward="true" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/template/main-page/intro.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="71" column="47" selection-start-line="71" selection-start-column="47" selection-end-line="71" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/_default.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2346">
+          <caret line="138" column="50" selection-start-line="138" selection-start-column="50" selection-end-line="138" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/main-page/_intro.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/template/main-page/third.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/_default.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/main-page/intro.js" />
+    <entry file="file://$PROJECT_DIR$/src/style/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/main-page/_six.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/main-page/contact.js" />
+    <entry file="file://$PROJECT_DIR$/src/style/partials/main-page/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/main-page/_contact.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3145">
+          <caret line="185" selection-start-line="185" selection-end-line="185" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/_default.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json" />
+    <entry file="file://$PROJECT_DIR$/src/style/partials/_contacts.sass" />
+    <entry file="file://$PROJECT_DIR$/src/style/partials/_footer.sass" />
+    <entry file="file://$PROJECT_DIR$/src/style/partials/_test.scss" />
+    <entry file="file://$PROJECT_DIR$/src/style/partials/_reset.sass" />
+    <entry file="file://$PROJECT_DIR$/src/style/partials/menu.sass" />
+    <entry file="file://$PROJECT_DIR$/src/style/partials/_watch.sass" />
+    <entry file="file://$PROJECT_DIR$/src/video.html" />
+    <entry file="file://$PROJECT_DIR$/src/style/partials/plugins/_owl-carousel.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2873">
+          <caret line="169" column="18" selection-start-line="169" selection-start-column="18" selection-end-line="169" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/plugins/_owl-carousel-thems.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/libs/owl.carosel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="3273" column="52" selection-start-line="3273" selection-start-column="52" selection-end-line="3273" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="83" column="3" selection-start-line="83" selection-start-column="3" selection-end-line="83" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/template/header.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/template/footer.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/template/main-page/first.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/template/main-page/five.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/template/main-page/four.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/template/main-page/second.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/template/main-page/six.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/template/main-page/contact.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/template/main-page/third.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/_reset.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/_default.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="41" column="50" lean-forward="true" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/template/main-page/intro.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/main-page/_intro.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="322" column="18" selection-start-line="322" selection-start-column="18" selection-end-line="322" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

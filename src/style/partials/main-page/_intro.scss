@@ -1,0 +1,420 @@
+///////////MAIN STYLE//////////////////////////////
+.section-intro{
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	@media only screen and (min-height:700px){
+		height: 100vh;
+	}
+}
+.container{
+	width: $container-width;
+	margin: 0 auto;
+	position: relative;
+	@include media-mexin($container-media){
+		width: 100%;
+		padding: 0 15px;
+		box-sizing: border-box;
+	}
+}
+.container-min{
+	width: 984px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	@include media-mexin($container-min-media){
+		width: 100%;
+		padding: 20px 15px;
+		box-sizing: border-box;
+	}
+}
+///////////MAIN STYLE AND//////////////////////////
+
+/*/////////////////CUSTOM SELECT/////////////////*/
+.select-box {
+	@include flex-mixin(space-between, center, row);
+	width: 100%;
+	height: 100px;
+	background-color: rgba(255, 255,255, 0.02);
+	border-radius: 10px;
+	border: 1px solid #2a3c4a;
+	box-sizing: border-box;
+	margin-bottom: 50px;
+	position: relative;
+	z-index: 2;
+	@include media-mexin($desktop-min--media){
+		@include flex-mixin(space-around, center, column);
+		height: 130px;
+	}
+	@include media-mexin($medium-media){
+		margin-bottom: 20px;
+	}
+	&__title{
+		font-size: 32px;
+		font-family: "Roboto";
+		font-weight: 400;
+		color: #fff;
+		margin-left: 134px;
+		@include media-mexin($desktop-min--media){
+			margin-left: 0;
+		}
+		@include media-mexin($medium-media){
+			font-size: 25px;
+			text-align: center;
+		}
+	}
+}
+
+.custom-select-wrapper {
+	position: relative;
+	display: inline-block;
+	user-select: none;
+	margin-right: 24px;
+	@include media-mexin($desktop-min--media){
+		margin-right: 0;
+	}
+	select {
+		display: none;
+	}
+}
+.custom-select {
+	position: relative;
+	display: inline-block;
+	&.opened {
+		.custom-options {
+			opacity: 1;
+			visibility: visible;
+			pointer-events: all;
+			transform: translateY(0);
+		}
+	}
+}
+.custom-select-trigger {
+	position: relative;
+	display: block;
+	width: 297px;
+	font-size: 16px;
+	text-transform: uppercase;
+	border: 1px solid #92e8fe;
+	height: 55px;
+	color: rgba(255, 255, 255, 0.6);
+	line-height: 55px;
+	background: transparent;
+	border-radius: 5px;
+	cursor: pointer;
+	box-sizing: border-box;
+	font-family: Roboto;
+	font-weight: 100;
+	padding-left: 16px;
+	@include media-mexin($medium-media){
+		width: 275px;
+	}
+	&:after {
+		position: absolute;
+		display: block;
+		content: '';
+		width: 5px;
+		height: 5px;
+		top: 50%;
+		right: 13px;
+		border-bottom: 1px solid #92e8fe;
+		border-right: 1px solid #92e8fe;
+		transform: rotate(45deg) translateY(-50%);
+		transition: all .4s ease-in-out;
+		transform-origin: 50% 0;
+	}
+}
+.custom-options {
+	position: absolute;
+	display: block;
+	top: 100%;
+	left: 0;
+	right: 0;
+	min-width: 100%;
+	margin: 8px 0;
+	border: 1px solid #92e8fe;
+	border-radius: 5px;
+	box-sizing: border-box;
+	background: #101E27;
+	transition: all .4s ease-in-out;
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+	transform: translateY(-15px);
+
+}
+.custom-option {
+	position: relative;
+	display: block;
+	box-sizing: border-box;
+	font-family: Roboto;
+	font-weight: 100;
+	padding-left: 15px;
+	font-size: 16px;
+	color: rgba(255,255,255,.6);
+	line-height: 26px;
+	cursor: pointer;
+	transition: all .4s ease-in-out;
+	text-transform: uppercase;
+	&:first-of-type {
+		border-radius: 4px 4px 0 0;
+		padding-top: 10px;
+		box-sizing: border-box;
+	}
+	&:last-of-type {
+		border-bottom: 0;
+		border-radius: 0 0 4px 4px;
+		padding-bottom: 10px;
+		box-sizing: border-box;
+	}
+	&:hover {
+		color:#fff;
+	}
+	&.selection {
+		color:#fff;
+	}
+}
+
+.option-hover:before {
+	color:#fff;
+}
+
+/*/////////////////CUSTOM SELECT AND/////////////////*/
+
+
+//////////////////CUSTOM CHECKBOX//////////////////////
+
+input[type=checkbox] {
+	visibility: hidden;
+}
+
+.slideOne {
+	width: 43px;
+	height: 15px;
+	background: #3cabe4;
+	border-radius: 50px;
+	position: relative;
+	box-shadow: inset 0px 1px 12px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+	transition: all .4s ease;
+
+}
+.slideOne.active{
+	background: #bdbebe;
+	transition: all .4s ease;
+}
+.slideOne label {
+	display: block;
+	width: 24px;
+	height: 24px;
+	border-radius: 50px;
+	transition: all .4s ease;
+	cursor: pointer;
+	position: absolute;
+	top: -5px;
+	left: 0px;
+	background-image: url(../img/chexbox-img.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.slideOne input[type=checkbox]:checked + label {
+	left: 20px;
+}
+
+
+
+
+//////////////////CUSTOM CHECKBOX AND//////////////////////
+
+
+////////////////// CARDS ///////////////////////////////
+.card-container{
+	@include flex-mixin(center,center,row);
+	flex-wrap: wrap;
+
+	&__item {
+		height: 355px;
+		width: 308px;
+		position: relative;
+		border-radius: 10px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
+		overflow: hidden;
+		/*margin: 0 auto;*/
+		margin: 0 10px 20px;
+		@include media-mexin($medium-media){
+			width: 290px;
+			height: 336px;
+			margin: 0 0 10px;
+		}
+		&__title{
+			font-size: 22px;
+			text-align: center;
+			font-family: "Roboto";
+			font-weight: 400;
+			color: #fff;
+			margin-top: 23px;
+			position: relative;
+			z-index: 1;
+		}
+		&__price {
+			position: absolute;
+			top: 194px;
+			left: 50%;
+			transform: translateX(-50%);
+			z-index: 1;
+			width: 250px;
+			@include flex-mixin(space-between, center, row);
+			@include media-mexin($medium-media){
+				top: 180px;
+			}
+		}
+		&__change{
+			position: absolute;
+			top: 228px;
+			left: 50%;
+			transform: translateX(-50%);
+			z-index: 1;
+			width: 250px;
+			@include flex-mixin(space-between, center, row);
+			@include media-mexin($medium-media){
+				top: 210px;
+			}
+		}
+		&__time{
+			position: absolute;
+			bottom: 18px;
+			left: 50%;
+			transform: translateX(-50%);
+			z-index: 1;
+			width: 250px;
+			height: 84px;
+			@include flex-mixin(space-between, center, column);
+			&__title{
+				color:rgba(255, 255, 255, 0.4);
+				font-size: 14px;
+				font-family: Roboto;
+				font-weight: bold;
+			}
+			&__value-box{
+				color: green;
+				font-size: 16px;
+				font-family: Roboto;
+				font-weight: bold;
+			}
+		}
+
+
+		&--eth{
+			background-image: url(../img/green-bg.png);
+
+		}
+		&--lth{
+			background-image: url(../img/gray-bg.png);
+		}
+		&--btc{
+			background-image: url(../img/brown-bg.png);
+		}
+	}
+}
+.value-box-many{
+	display: none;
+}
+.card-container__item__time--row{
+	@include flex-mixin(space-between, center, row);
+	width: 100%;
+}
+.card-price-title {
+	font-size: 20px;
+	font-family: Roboto;
+	color: #fff;
+	font-weight: bold;
+}
+.card-price-value {
+	font-size: 22px;
+	font-family: Roboto;
+	color: #fff;
+	font-weight: bold;
+}
+.card-change-title{
+	font-size: 14px;
+	font-family: Roboto;
+	color: #fff;
+	font-weight: bold;
+}
+.figure{
+	position:absolute;
+	top:0;
+}
+.cent {
+	position: absolute;
+	&--eth {
+		right: -21px;
+		top: 5px;
+	}
+	&--lth{
+		left: 50%;
+		transform: translateX(-56%);
+		top: 60px;
+		width: 120px!important;
+		height: 124px;
+	}
+	&--btc{
+		left: 50%;
+		transform: translateX(-48%);
+		top: 54px;
+		width: 123px!important;
+		height: 126px;
+	}
+}
+
+////////////////// CARDS AND///////////////////////////////
+
+
+
+////////////////// CAROUSEL ////////////////////////////////
+
+.card-container-carousel .owl-nav {
+	position: absolute;
+	top: 38%;
+	height: 50px;
+	width: 100%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.card-container-carousel .owl-next{
+	right:0;
+	top: 10px;
+	z-index: 2;
+	width: 30px;
+	height: 30px;
+	padding: 8px;
+	position: absolute;
+	background-color: rgba(255,255,255,0.4);
+	-webkit-box-shadow: 0 4px 4px rgba(0,0,0,.3), 0 0 4px rgba(0,0,0,.2);
+	box-shadow: 0 4px 4px rgba(0,0,0,.3), 0 0 4px rgba(0,0,0,.2);
+}
+.card-container-carousel .owl-prev {
+	left:0;
+	top: 10px;
+	z-index: 2;
+	width: 30px;
+	height: 30px;
+	padding: 8px;
+	position: absolute;
+	background-color: rgba(255,255,255,0.4);
+	-webkit-box-shadow: 0 4px 4px rgba(0,0,0,.3), 0 0 4px rgba(0,0,0,.2);
+	box-shadow: 0 4px 4px rgba(0,0,0,.3), 0 0 4px rgba(0,0,0,.2);
+}
+
+.owl-prev,.owl-next {
+	color: #000;
+	fill: currentColor;
+}
+
+////////////////// CAROUSEL  AND//////////////////////////////
+
+

@@ -1,0 +1,121 @@
+
+<!--include template/main-page/four-->
+<!--include template/header--><!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Exchange generator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/main.css" rel="stylesheet">
+    <!-- FAVICON-->
+    <link rel="shortcut icon" type="image/ico" href="https://bitcoinaverage.com/markets/favicon.ico">
+    <!--FAVICON:END-->
+  </head>
+  <body>
+    <!--+header()-->
+    <section class="section-intro">
+      <div class="container container-min">
+        <!--#output-->
+        <!--#output1-->
+        <!--#output2-->
+        <!--.center-->
+        <div class="select-box">
+          <h1 class="select-box__title">Select currency to exhange:</h1>
+          <select class="custom-select sources select-box__content" name="sources" placeholder="USD" id="sources">
+            <option class="custom-select__option" value="USD" selected="selected">usd</option>
+            <option class="custom-select__option" value="EUR">eur</option>
+            <option class="custom-select__option" value="RUB">rub</option>
+            <option class="custom-select__option" value="GBP">gbp</option>
+          </select>
+        </div>
+        <div class="card-container owl-carousel">
+          <div class="card-container__item card-container__item--eth">
+            <h3 class="card-container__item__title">Ethereum</h3><img class="figure" src="img/transparent-figure.png"/><img class="cent cent--eth" src="img/eth.png"/>
+            <div class="card-container__item__price"><span class="card-price-title">Price:</span><span class="card-price-value">$22 526.92</span></div>
+            <div class="card-container__item__change"><span class="card-change-title">Percent change</span>
+              <div class="slideOne">
+                <input class="checkbox-slide" id="slideOne" type="checkbox" value="None" name="check"/>
+                <label for="slideOne"></label>
+              </div>
+            </div>
+            <div class="card-container__item__time">
+              <div class="card-container__item__time__hour card-container__item__time--row"><span class="card-container__item__time__title">Hour change</span>
+                <div class="card-container__item__time__value-box"><span class="value-box-percent value-box-percent--hour">233</span><span class="value-box-many value-box-many--hour"></span></div>
+              </div>
+              <div class="card-container__item__time__day card-container__item__time--row"><span class="card-container__item__time__title">Day change</span>
+                <div class="card-container__item__time__value-box"><span class="value-box-percent value-box-percent--day">233</span><span class="value-box-many value-box-many--day"></span></div>
+              </div>
+              <div class="card-container__item__time__week card-container__item__time--row"><span class="card-container__item__time__title">Week change</span>
+                <div class="card-container__item__time__value-box"><span class="value-box-percent value-box-percent--week">233</span><span class="value-box-many value-box-many--week"></span></div>
+              </div>
+              <div class="card-container__item__time__week card-container__item__time--row"><span class="card-container__item__time__title">Month change</span>
+                <div class="card-container__item__time__value-box"><span class="value-box-percent value-box-percent--month">233</span><span class="value-box-many value-box-many--month"></span></div>
+              </div>
+            </div>
+          </div>
+          <div class="card-container__item card-container__item--lth">
+            <h3 class="card-container__item__title">Litecoin</h3><img class="figure" src="img/transparent-figure.png"/><img class="cent cent--lth" src="img/lt.png"/>
+            <div class="card-container__item__price"><span class="card-price-title">Price:</span><span class="card-price-value">$22 526.92</span></div>
+            <div class="card-container__item__change"><span class="card-change-title">Percent change</span>
+              <div class="slideOne">
+                <input class="checkbox-slide" id="slideTwo" type="checkbox" value="None" name="check"/>
+                <label for="slideTwo"></label>
+              </div>
+            </div>
+            <div class="card-container__item__time">
+              <div class="card-container__item__time__hour card-container__item__time--row"><span class="card-container__item__time__title">Hour change</span>
+                <div class="card-container__item__time__value-box"><span class="value-box-percent value-box-percent--hour">233</span><span class="value-box-many value-box-many--hour"></span></div>
+              </div>
+              <div class="card-container__item__time__day card-container__item__time--row"><span class="card-container__item__time__title">Day change</span>
+                <div class="card-container__item__time__value-box"><span class="value-box-percent value-box-percent--day">233</span><span class="value-box-many value-box-many--day"></span></div>
+              </div>
+              <div class="card-container__item__time__week card-container__item__time--row"><span class="card-container__item__time__title">Week change</span>
+                <div class="card-container__item__time__value-box"><span class="value-box-percent value-box-percent--week">233</span><span class="value-box-many value-box-many--week"></span></div>
+              </div>
+              <div class="card-container__item__time__week card-container__item__time--row"><span class="card-container__item__time__title">Month change</span>
+                <div class="card-container__item__time__value-box"><span class="value-box-percent value-box-percent--month">233</span><span class="value-box-many value-box-many--month"></span></div>
+              </div>
+            </div>
+          </div>
+          <div class="card-container__item card-container__item--btc">
+            <h3 class="card-container__item__title">Bitcoin</h3><img class="figure" src="img/transparent-figure.png"/><img class="cent cent--btc" src="img/btn.png"/>
+            <div class="card-container__item__price"><span class="card-price-title">Price:</span><span class="card-price-value">$22 526.92</span></div>
+            <div class="card-container__item__change"><span class="card-change-title">Percent change</span>
+              <div class="slideOne">
+                <input class="checkbox-slide" id="slideThree" type="checkbox" value="None" name="check"/>
+                <label for="slideThree"></label>
+              </div>
+            </div>
+            <div class="card-container__item__time">
+              <div class="card-container__item__time__hour card-container__item__time--row"><span class="card-container__item__time__title">Hour change</span>
+                <div class="card-container__item__time__value-box"><span class="value-box-percent value-box-percent--hour">233</span><span class="value-box-many value-box-many--hour"></span></div>
+              </div>
+              <div class="card-container__item__time__day card-container__item__time--row"><span class="card-container__item__time__title">Day change</span>
+                <div class="card-container__item__time__value-box"><span class="value-box-percent value-box-percent--day">233</span><span class="value-box-many value-box-many--day"></span></div>
+              </div>
+              <div class="card-container__item__time__week card-container__item__time--row"><span class="card-container__item__time__title">Week change</span>
+                <div class="card-container__item__time__value-box"><span class="value-box-percent value-box-percent--week">233</span><span class="value-box-many value-box-many--week"></span></div>
+              </div>
+              <div class="card-container__item__time__week card-container__item__time--row"><span class="card-container__item__time__title">Month change</span>
+                <div class="card-container__item__time__value-box"><span class="value-box-percent value-box-percent--month">233</span><span class="value-box-many value-box-many--month"></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--+first ()-->
+    <!--+second ()-->
+    <!--+third ()-->
+    <!--+four ()-->
+    <!--+five ()-->
+    <!--+six ()-->
+    <!--+contact ()-->
+    <!--+footer ()-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
